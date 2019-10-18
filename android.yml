@@ -1,0 +1,15 @@
+name: Built Bot
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ROM
+      image: baalajimaestro/android_build:latest
+
+    run: bash ./setup.sh
+
