@@ -9,8 +9,9 @@ jobs:
     
     steps:
       - name: ROM
-      - uses: actions/checkout@v1
-      run: bash .setup.sh
+        uses: actions/checkout@v1
+      - name: run
+        run: bash .setup.sh
       
 
     
