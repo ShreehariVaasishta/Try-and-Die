@@ -12,4 +12,4 @@ jobs:
       - name: ROM
       image: baalajimaestro/android_build:latest
 
-    run: bash ./setup.sh
+    run: bash ./../../setup.sh
