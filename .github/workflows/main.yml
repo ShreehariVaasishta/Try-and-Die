@@ -8,8 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v1
       - name: ROM
-      image: baalajimaestro/android_build:latest
+      - uses: actions/checkout@v1
+      run: bash .setup.sh
+      
 
-    run: bash ./../../setup.sh
+    
