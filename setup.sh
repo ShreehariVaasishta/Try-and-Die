@@ -12,3 +12,8 @@ ln -s /usr/bin/python2.7 /usr/bin/python
 cd ..
 rm -rf scripts
 echo "Finished"
+
+mkdir arrow
+cd arrow
+repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-10.0
+repo sync  -f --force-sync --no-clone-bundle
