@@ -11,7 +11,7 @@ jobs:
       - name: ROM
         uses: actions/checkout@v1
       - name: run
-        run: bash .setup.sh
+        run: bash ./setup.sh
       
 
     
